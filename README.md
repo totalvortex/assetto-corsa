@@ -4,3 +4,5 @@ DXVK_HUD=1 ./winetricks corefonts vcrun2008 vcrun2010 vcrun2012 vcrun2013 d3dx11
 DXVK_HUD=1 ./winetricks --force vcrun2017
 DXVK_HUD=1 ./winetricks --force dotnet461
 DXVK_HUD=1 ./winetricks --force dotnet472
+
+DXVK_HUD=1 WINVER=win2008 ./winetricks steam
